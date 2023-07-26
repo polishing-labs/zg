@@ -10,7 +10,7 @@ specifiers:
   hexo-renderer-marked: 6.0.0
   hexo-renderer-stylus: 2.1.0
   hexo-server: 3.0.0
-  hexo-theme-landscape: 0.0.3
+  hexo-theme-landscape: 1.0.0
   hexo-theme-next: 8.14.1
   hexo-util: 3.0.1
   nunjucks: 3.2.3
@@ -25,7 +25,7 @@ dependencies:
   hexo-renderer-marked: 6.0.0
   hexo-renderer-stylus: 2.1.0
   hexo-server: 3.0.0
-  hexo-theme-landscape: 0.0.3
+  hexo-theme-landscape: 1.0.0
   hexo-theme-next: 8.14.1
   hexo-util: 3.0.1
   nunjucks: 3.2.3
@@ -742,8 +742,8 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-theme-landscape/0.0.3:
-    resolution: {integrity: sha512-b0Di+TUVs4ESrNX4ULEh9uQmADpO6kr10rIJ2OGZM8suNQNFKdxn+vJUjnLfKkCPJAfVmS7/S83KCNYe4tpoNw==}
+  /hexo-theme-landscape/1.0.0:
+    resolution: {integrity: sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==}
     dev: false
 
   /hexo-theme-next/8.14.1:
