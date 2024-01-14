@@ -12,7 +12,7 @@ specifiers:
   hexo-server: 3.0.0
   hexo-theme-landscape: 0.0.3
   hexo-theme-next: 8.14.1
-  hexo-util: 3.0.1
+  hexo-util: 3.2.0
   nunjucks: 3.2.3
 
 dependencies:
@@ -27,7 +27,7 @@ dependencies:
   hexo-server: 3.0.0
   hexo-theme-landscape: 0.0.3
   hexo-theme-next: 8.14.1
-  hexo-util: 3.0.1
+  hexo-util: 3.2.0
   nunjucks: 3.2.3
 
 packages:
@@ -389,7 +389,7 @@ packages:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      entities: 4.4.0
+      entities: 4.5.0
     dev: false
 
   /domelementtype/2.3.0:
@@ -429,8 +429,8 @@ packages:
       domhandler: 4.3.1
     dev: false
 
-  /domutils/3.0.1:
-    resolution: {integrity: sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==}
+  /domutils/3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -465,6 +465,11 @@ packages:
 
   /entities/4.4.0:
     resolution: {integrity: sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==}
+    engines: {node: '>=0.12'}
+    dev: false
+
+  /entities/4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
     dev: false
 
@@ -764,16 +769,16 @@ packages:
       strip-indent: 3.0.0
     dev: false
 
-  /hexo-util/3.0.1:
-    resolution: {integrity: sha512-ri3WsEUWSfrjydYPeOaWvrYIzfVBiaXUy0846051MkuJxBcNtG2o87q0KFGiniSMmi0XxLQhSl415anU3+FFlA==}
+  /hexo-util/3.2.0:
+    resolution: {integrity: sha512-iM2eS8P88IUpcgiU2szx584bwhXzjzLLqED6WwDk55wYQZrQh/sni/UJwmoW4pxpgubbISIUPXr4LjwPyJuYzA==}
     engines: {node: '>=14'}
+    requiresBuild: true
     dependencies:
-      bluebird: 3.7.2
       camel-case: 4.1.2
       cross-spawn: 7.0.3
       deepmerge: 4.2.2
       highlight.js: 11.6.0
-      htmlparser2: 8.0.1
+      htmlparser2: 9.1.0
       prismjs: 1.29.0
       strip-indent: 3.0.0
     dev: false
@@ -832,13 +837,13 @@ packages:
       entities: 3.0.1
     dev: false
 
-  /htmlparser2/8.0.1:
-    resolution: {integrity: sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==}
+  /htmlparser2/9.1.0:
+    resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==}
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.0.1
-      entities: 4.4.0
+      domutils: 3.1.0
+      entities: 4.5.0
     dev: false
 
   /http-errors/2.0.0:
